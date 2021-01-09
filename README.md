@@ -1,4 +1,4 @@
-# pizza In Wonderland
+# pizza Wonderland
 ### By Dorothy Muhonja
 
 ## Description
