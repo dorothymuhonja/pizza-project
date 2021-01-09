@@ -9,7 +9,7 @@
 * Chrome or Safari web browser
 
 ### How To Run
-* Click on this [Link](https://github.com/dorothymuhonja/pizza-project.git) to access my git hub Delani-studio repositpory.
+* Click on this [Link](https://github.com/dorothymuhonja/pizza-project.git) to access my git hub pizza-project repositpory.
 * Fork or Clone the repository
 * You can also access the web application directly using this [live link]()
 
