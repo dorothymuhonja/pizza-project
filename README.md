@@ -14,11 +14,14 @@
 * You can also access the web application directly using this [live link]()
 
 ## BDD(Behavior Driven Development)
-* User can toggle between the icons on 'What-we-do' section to see a description of our services.
-* User can also see the project name on our portfolio section which has an overlay effect with the background image still visible.
-* The website takes the user's email address and name then notifies them that they have received their message.
-* If user enters the wrong details they get an error message.
+* User can select a variety of pizzas with different toppings
+* The app calculates a total for the pizza bought and displays it on the screen
+* User have the option for an in person pick up or a home delivery
+* For a hom e delivery the app prompts the user to enter their address
+* The user get a notification about their total and delivery fee
 
+## Known Bugs
+The app does not cover the entire page of the screen. Has some spaces on the sides
 
 ## Technologies used
 * html
