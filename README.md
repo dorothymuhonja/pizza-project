@@ -11,7 +11,7 @@
 ### How To Run
 * Click on this [Link](https://github.com/dorothymuhonja/pizza-project.git) to access my git hub pizza-project repositpory.
 * Fork or Clone the repository
-* You can also access the web application directly using this [live link]()
+* You can also access the web application directly using this [live link](https://dorothymuhonja.github.io/pizza-project/)
 
 ## BDD(Behavior Driven Development)
 * User can select a variety of pizzas with different toppings
