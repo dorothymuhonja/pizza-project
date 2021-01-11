@@ -1,9 +1,17 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxleHBsb3JlLWZlZWR8Mnx8fGVufDB8fHw%3D&w=1000&q=80');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: white;
+    font-weight: 500;
+}
 input[type=number] {
     -moz-appearance:textfield; 
 }
 
 .dropdown-delivery{
-    color: black;
+    color: white;
     cursor: pointer;
     font-size: 14px;
 }

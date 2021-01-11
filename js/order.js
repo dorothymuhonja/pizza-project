@@ -58,7 +58,7 @@ $(document).ready(function () {
 
       $('input[type=number][name=quant]').on;
 
-      var delivery = 250;
+      var delivery = 100;
       var grandTotal = [(sum + total) * quantity + delivery];
       document.getElementById('total3').innerHTML = grandTotal;
       console.log(sum);
