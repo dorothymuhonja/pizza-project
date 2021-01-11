@@ -7,6 +7,18 @@ body{
     font-weight: 500;
     font-family: 'Architects Daughter', cursive;
 }
+
+.navbar{
+    position: static;
+    
+}
+.navbar-nav{
+    margin-left: 25%;
+}
+.navbar li{
+    padding: 10px;
+    font-size: 25px;
+}
 input[type=number] {
     -moz-appearance:textfield; 
 }
