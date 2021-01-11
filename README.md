@@ -26,6 +26,10 @@
 * Javascript
 * JQuery
 * Bootstrap
+
+## Known Bugs
+* Alert function for home delivery is not functioning
+* Order page is not responsive
  
  ## Page Screenshot
  ![Home](images/home.png)
