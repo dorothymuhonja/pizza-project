@@ -20,9 +20,6 @@
 * For a hom e delivery the app prompts the user to enter their address
 * The user get a notification about their total and delivery fee
 
-## Known Bugs
-The app does not cover the entire page of the screen. Has some spaces on the sides
-
 ## Technologies used
 * html
 * css
@@ -31,7 +28,9 @@ The app does not cover the entire page of the screen. Has some spaces on the sid
 * Bootstrap
  
  ## Page Screenshot
- ![Home page](images/)
+ ![Home](images/home.png)
+ ![About](images/about.png)
+ ![Order](images/order.png)
  
 
 ## Contact information
