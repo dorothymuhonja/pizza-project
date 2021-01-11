@@ -1,0 +1,51 @@
+input[type=number] {
+    -moz-appearance:textfield; 
+}
+
+.dropdown-delivery{
+    color: black;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button{
+    color: black;
+}
+
+#address{
+    color: black;
+    background: white;
+    border: 1px solid white;
+    padding: 0.2%;
+    font-weight: bold;
+}
+
+.inputIcon i{
+    width: 13%;
+    height: 3vw;
+    padding: 0.5%;
+    position: relative;
+    text-align: center;
+    left: -45.5%;
+    top: 2px;
+}
+.inputIcon{
+    display: flex;
+    justify-content: center;
+}
+
+#form{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-evenly;
+    font-size: 16px;
+    text-align: left;
+}
+
+#form h3{
+    color: orange;
+    font-weight: bold;
+    text-shadow: black;
+}

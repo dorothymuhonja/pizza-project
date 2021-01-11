@@ -42,52 +42,217 @@
                 </ul>
             </div>
         </nav>
-  <h1>Place Your Order Here</h1>
-  <div class="row">
-      <div class="col-sm-5">
-          <form action="">
-            <label for="select">Quantity</label>
-             <input type="number" min="0">
-               <br>
-               <br>
-              <label for="select">Pizza Type</label>
-                  <select name="" id="" class="browser-default custom-select custom-select-md mb-3 name">
-                  <option value="Meat Lovers'">Meat Lovers'</option>
-                  <option value="Chicken Tikka">Chicken Tikka</option>
-                  <option value="Hawaiian">Hawaiian</option>
-                  <option value="Veggie">Veggie</option>
-                  <option value="Vegan BBQ">Vegan BBQ</option>
-                  <option value="Margherita">Margherita</option>
-               </select>
-              
-                <label for="select">Size</label>
-                <select name="" id="" class="browser-default custom-select custom-select-md mb-3 name">
-                    <option value="small">Small- Kshs 500</option>
-                    <option value="medium">Medium- Kshs 1000</option>
-                    <option value="large">Large- Kshs 1500</option>
+
+      <br>
+   
+    <form class="landing-form" action="">
+
+        <div class="dropdown-delivery">
+
+            <label for="Delivery"></label>
+            <select name="Options" id="options" style="width: 40%;height: 40px;">
+                <option id="delivery" value="Delivery">Delivery</option>
+                <option value="in-person" selected>In-person</option>
+            </select>
+
+        </div>
+
+        <br>
+
+        <div class="inputIcon text-center">
+
+            <p placeholder="Address" id="address"></p>
+
+        </div>
+
+        <br>
+
+        <button class="btn btn-primary" type="submit" onclick="" id="submit">Enter</button>
+
+    </form>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="container text-responsive">
+
+    <h2 id="startOrder" class="text-center">Order</h2>
+
+    <div class="qual" style="float: left;margin-left: 40%;">
+
+        <p class="text-center">Quantity</p><input type="number" value="1" name="quant" placeholder="Quantity"
+            id="quantity" min="1" required>
+
+    </div>
+
+    <form action="" id="form" class="text-center">
+
+        <div class="menu-items" style="line-height: 230%;">
+
+            <h3>size</h3>
+
+            <input class="size" type="radio" name="Size" value="300" id="small">Small - Ksh 500
+
+            <br>
+
+            <input class="size" type="radio" name="Size" value="550" id="medium">Medium - Ksh 1000
+
+            <br>
+
+            <input class="size" type="radio" name="Size" value="800" id="large">Large - Ksh 1500
+
+            <br>
+
+        </div>
+
+        <div class="menu-items" style="line-height: 230%;">
+
+            <h3>crust</h3>
+
+            <input class="crust" type="radio" name="Crust" value="140" id="crispy">Crispy - ksh 200
+
+            <br>
+
+            <input class="crust" type="radio" name="Crust" value="170" id="stuffed">Stuffed - ksh 250
+
+            <br>
+
+            <input class="crust" type="radio" name="Crust" value="150" id="gluttenfree">Glutten-Free - ksh 300
+
+            <br>
+
+        </div>
+
+        <div class="menu-items">
+
+            <h3>toppings</h3>
+
+            <div class="prnpizza">
+
+                <input class="topin" type="checkbox" name="Meat" onclick="myThreeFunction()" value="Pepperoni"
+                    id="pepperoni"> Pepperoni
+
+                <select class="values">Pineapple
+                    <option value="" selected>Select Size</option>
+                    <option value="50">small</option>
+                    <option value="100">medium</option>
+                    <option value="150">large</option>
                 </select>
 
-                <label for="select">Crust</label>
-                <select name="" id="" class="browser-default custom-select custom-select-md mb-3 name">
-                    <option value="thin">Thin- Kshs - Kshs 300</option>
-                    <option value="thick">Thick- Kshs 350</option>
-                    <option value="Gluten free">Gluten Free- Kshs 400</option>
+            </div>
+
+            <br>
+
+            <div class="pinepizza">
+
+                <input class="topin" type="checkbox" name="Veggies" onclick="myTwoFunction()" value="Pineapple"
+                    id="pineapple"> Pineapple
+
+                <select class="values">
+                    <option value="" selected>Select Size</option>
+                    <option value="50">small</option>
+                    <option value="100">medium</option>
+                    <option value="150">large</option>
                 </select>
 
-                            <label for="select">Toppings</label>
-                            <select name="" id="" class="browser-default custom-select custom-select-md mb-3 name">
-                                <option value="chicken">Chicken- Kshs 150</option>
-                                <option value="Beef">Beef- Kshs 150</option>
-                                <option value="Bacon">Bacon- Kshs 200</option>
-                                <option value="Olives">Olives- Kshs 150</option> 
-                                <option value="Chillies">Chillies- Kshs 100</option>
-                                <option value="pepperoni">Pepperoni-Kshs 250</option>
-                            </select>
-                        <button type="button" class="btn btn-secondary">Proceed</button>
-          </form>
-      </div>
-  </div>
-  
+            </div>
+
+            <br>
+
+            <div class="chknpizza">
+
+                <input class="topin" type="checkbox" name="Meat" onclick="myOneFunction()" value="Chicken" id="chicken">
+                Chicken
+
+                <select class="values">
+                    <option value="" selected>Select Size</option>
+                    <option value="50">small</option>
+                    <option value="100">medium</option>
+                    <option value="150">large</option>
+                </select>
+
+            </div>
+
+            <br>
+
+            <div class="beefpizza">
+
+                <input class="topin" type="checkbox" name="Meat" onclick="myFunction()" value="Beef" id="beef"> Beef
+
+                <select class="values">
+                    <option value="" selected>Select Size</option>
+                    <option value="50">small</option>
+                    <option value="100">medium</option>
+                    <option value="150">large</option>
+                </select>
+
+            </div>
+
+            <br>
+
+        </div>
+
+    </form>
+
+    <div class="controls text-center">
+
+
+
+        <button type="submit" class="btn btn-success" onclick="" id="getorder">Place Order</button>
+
+        <button type="button" class="btn btn-danger" value="click" onclick="refreshPage()" id="cnclorder">Cancel
+            Order</button>
+
+    </div>
+
+    <div id="cart">
+
+        <div class="text-center" id="yourOrder">
+
+            <div id="yourPrice">
+
+                <h3 style="text-transform: none;">Your Item(s)</h3>
+
+
+
+                <div id="total1"></div>
+
+                <div id="total2"></div>
+
+
+            </div>
+
+
+            <h3 style="color: green;">grand total:</h3>
+
+            <p style="display:none" id="total4">Pepperoni</p>
+
+            <p style="display:none" id="total5">Pineapple</p>
+
+            <p style="display:none" id="total6">Chicken</p>
+
+            <p style="display:none" id="total7">Beef</p>
+
+            <div class="text-center" id="grandPrice"></div>
+
+            <div style="display:none;" id="total3"> </div>
+
+
+
+
+            <br>
+            <br>
+
+        </div>
+
+    </div>
+
+</div>
+
+</div>
 </div>
     <!-- JQuery -->
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
