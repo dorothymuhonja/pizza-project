@@ -1,14 +1,21 @@
 *{
     margin: 0;
+    padding: 0;
+
 }
 body{
     margin: 0;
+    width: 100%;
+    font-family: 'Architects Daughter', cursive;
+    
+    
 }
 .container-fluid{
     margin: 0;
 }
-nav{
-    background-position: fixed;
+.navbar{
+    position: static;
+    
 }
 .hr{
     background-color: white;
@@ -20,4 +27,28 @@ nav{
    background-size: cover;
    background-position: center;
    background-image: url('https://www.wallpapers4u.org/wp-content/uploads/pizza_cheese_piece_tomatoes_paprika_olives_corn_fennel_43787_1920x1080.jpg');
+}
+.card-title{
+    text-align: center;
+}
+.about{
+    float: left;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 15px;
+    
+}
+.about h3{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.about img{
+    float: right;
+    margin-left: 25%;
+    margin-right: 60px;
+    
+}
+.varieties h3{
+    text-align: center;
 }
